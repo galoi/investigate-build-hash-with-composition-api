@@ -1,0 +1,18 @@
+{
+  "name": "investigate-build-hash-with-composition-api",
+  "version": "1.0.0",
+  "description": "My astonishing Nuxt.js project",
+  "author": "Yasuhiro Yamada",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "2.15.6",
+    "@nuxtjs/composition-api": "^0.32.0"
+  },
+  "devDependencies": {}
+}
