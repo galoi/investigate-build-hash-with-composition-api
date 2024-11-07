@@ -3,10 +3,10 @@
     <div>
       <logo />
       <h1 class="title">
-        investigate-build-hash-with-composition-api
+        {{ title }}
       </h1>
       <h2 class="subtitle">
-        My astonishing Nuxt.js project
+        {{ subtitle }}
       </h2>
       <div class="links">
         <a
@@ -28,14 +28,13 @@
   </div>
 </template>
 
-<script>
+<script setup>
+import { ref } from 'vue'
 import Logo from '~/components/Logo.vue'
 
-export default {
-  components: {
-    Logo
-  }
-}
+// Reactive variables
+const title = ref('investigate-build-hash-with-composition-api')
+const subtitle = ref('My astonishing Nuxt.js project')
 </script>
 
 <style>

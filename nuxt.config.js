@@ -1,5 +1,8 @@
 
 export default {
+  bridge: {
+    capi: true,
+  },
   head: {
     title: process.env.npm_package_name || '',
     meta: [
@@ -17,7 +20,7 @@ export default {
   plugins: [
   ],
   buildModules: [
-    '@nuxtjs/composition-api/module',
+    // '@nuxtjs/composition-api/module',
   ],
   modules: [
   ],
