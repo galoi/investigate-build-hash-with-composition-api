@@ -14,5 +14,8 @@
     "nuxt": "2.15.6",
     "@nuxtjs/composition-api": "^0.32.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "volta": {
+    "node": "16.20.2"
+  }
 }
