@@ -1,3 +1,4 @@
+import LogModuleIdsPlugin from './build/log-module-ids-plugin';
 
 export default {
   head: {
@@ -32,6 +33,7 @@ export default {
     },
 
     extend (config, ctx) {
+      config.plugins.push(new LogModuleIdsPlugin());
     }
   }
 }
